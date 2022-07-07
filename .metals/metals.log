@@ -1,0 +1,133 @@
+2022.07.07 12:15:27 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/okennedy/Documents/Svega/.metals/lsp.trace.json or /home/okennedy/.cache/metals/lsp.trace.json[0m
+2022.07.07 12:15:27 INFO  logging to file /home/okennedy/Documents/Svega/.metals/metals.log[0m
+2022.07.07 12:15:27 INFO  Started: Metals version 0.11.6 in workspace '/home/okennedy/Documents/Svega' for client Sublime Text LSP 1.16.3.[0m
+2022.07.07 12:15:27 INFO  time: initialize in 0.37s[0m
+2022.07.07 12:15:27 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.07.07 12:15:27 WARN  Build server is not auto-connectable.[0m
+2022.07.07 12:15:28 WARN  no build target for: /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:15:28 INFO  no build target found for /home/okennedy/Documents/Svega/build.sc. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.07.07 12:15:29 INFO  time: code lens generation in 1.87s[0m
+2022.07.07 12:15:29 INFO  running '/tmp/metals8354480076245774475/millw --mill-version 0.10.4 --import ivy:com.lihaoyi::mill-contrib-bloop: mill.contrib.Bloop/install'[0m
+2022.07.07 12:15:30 INFO  Compiling /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:15:30 INFO  /home/okennedy/Documents/Svega/build.sc:2: not found: type ScalaModule[0m
+2022.07.07 12:15:30 INFO  object vega extends ScalaModule with PublishModule {[0m
+2022.07.07 12:15:30 INFO                      ^[0m
+2022.07.07 12:15:30 INFO  /home/okennedy/Documents/Svega/build.sc:2: not found: type PublishModule[0m
+2022.07.07 12:15:30 INFO  object vega extends ScalaModule with PublishModule {[0m
+2022.07.07 12:15:30 INFO                                       ^[0m
+2022.07.07 12:15:30 INFO  /home/okennedy/Documents/Svega/build.sc:3: not found: value vizier[0m
+2022.07.07 12:15:30 INFO    def publishVersion = vizier.VERSION[0m
+2022.07.07 12:15:30 INFO                         ^[0m
+2022.07.07 12:15:30 INFO  /home/okennedy/Documents/Svega/build.sc:4: not found: value vizier[0m
+2022.07.07 12:15:30 INFO    def scalaVersion = vizier.scalaVersion[0m
+2022.07.07 12:15:30 INFO                       ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:7: not found: value vizier[0m
+2022.07.07 12:15:31 INFO      vizier.millSourcePath / "vega-src"[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:10: not found: value PomSettings[0m
+2022.07.07 12:15:31 INFO    override def pomSettings = PomSettings([0m
+2022.07.07 12:15:31 INFO                               ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:11: not found: value description[0m
+2022.07.07 12:15:31 INFO      description = "Vizier Vega/Vega-Lite Support",[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:12: not found: value organization[0m
+2022.07.07 12:15:31 INFO      organization = "info.vizierdb",[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:13: not found: value url[0m
+2022.07.07 12:15:31 INFO      url = "http://vizierdb.info",[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:14: package licenses is not a value[0m
+2022.07.07 12:15:31 INFO      licenses = Seq(License.`Apache-2.0`),[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:15: not found: value versionControl[0m
+2022.07.07 12:15:31 INFO      versionControl = VersionControl.github("vizierdb", "vizier-scala"),[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:16: not found: value developers[0m
+2022.07.07 12:15:31 INFO      developers = Seq([0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  /home/okennedy/Documents/Svega/build.sc:21: not found: value vizier[0m
+2022.07.07 12:15:31 INFO      vizier.PLAY_JS[0m
+2022.07.07 12:15:31 INFO      ^[0m
+2022.07.07 12:15:31 INFO  Compilation Failed[0m
+2022.07.07 12:15:32 INFO  time: ran 'mill bloopInstall' in 2.07s[0m
+2022.07.07 12:15:32 ERROR Mill command failed: /tmp/metals8354480076245774475/millw --mill-version 0.10.4 --import ivy:com.lihaoyi::mill-contrib-bloop: mill.contrib.Bloop/install[0m
+2022.07.07 12:15:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/okennedy/Documents/Svega/.metals/lsp.trace.json or /home/okennedy/.cache/metals/lsp.trace.json[0m
+2022.07.07 12:15:58 INFO  logging to file /home/okennedy/Documents/Svega/.metals/metals.log[0m
+2022.07.07 12:15:58 INFO  Started: Metals version 0.11.6 in workspace '/home/okennedy/Documents/Svega' for client Sublime Text LSP 1.16.3.[0m
+2022.07.07 12:15:59 INFO  time: initialize in 0.38s[0m
+2022.07.07 12:15:59 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.07.07 12:15:59 WARN  Build server is not auto-connectable.[0m
+2022.07.07 12:15:59 WARN  no build target for: /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:15:58 INFO  skipping build import with status 'Failed'[0m
+2022.07.07 12:16:00 INFO  no build target found for /home/okennedy/Documents/Svega/build.sc. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.07.07 12:16:01 INFO  time: code lens generation in 1.78s[0m
+2022.07.07 12:16:14 WARN  no build target for: /home/okennedy/Documents/Vizier-Devel/build.sc[0m
+2022.07.07 12:16:22 WARN  no build target for: /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:16:50 WARN  no build target for: /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:16:50 INFO  skipping build import with status 'Dismissed'[0m
+2022.07.07 12:16:59 WARN  no build target for: /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:16:59 INFO  skipping build import with status 'Dismissed'[0m
+2022.07.07 12:17:21 WARN  no build target for: /home/okennedy/Documents/Svega/build.sc[0m
+2022.07.07 12:17:21 INFO  skipping build import with status 'Dismissed'[0m
+2022.07.07 12:18:14 WARN  no build target for: /home/okennedy/Documents/Svega/load_json_schema.sc[0m
+2022.07.07 12:32:46 ERROR text document: file:///home/okennedy/Documents/Svega/load_json_schema.sc
+java.nio.file.NoSuchFileException: /home/okennedy/Documents/Svega/load_json_schema.sc
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1198)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2684)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.currentDocument(SyntheticsDecorationProvider.scala:275)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.syntheticDecorations(SyntheticsDecorationProvider.scala:163)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.$anonfun$publishSynthetics$1(SyntheticsDecorationProvider.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.07.07 12:32:50 ERROR text document: file:///home/okennedy/Documents/Svega/load_json_schema.sc
+java.nio.file.NoSuchFileException: /home/okennedy/Documents/Svega/load_json_schema.sc
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1198)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2684)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.currentDocument(SyntheticsDecorationProvider.scala:275)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.syntheticDecorations(SyntheticsDecorationProvider.scala:163)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.$anonfun$publishSynthetics$1(SyntheticsDecorationProvider.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.07.07 12:32:54 INFO  shutting down Metals[0m
